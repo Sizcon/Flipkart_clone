@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: sticky;
+}
+
+.nav {
+    background-color: #2370f4;
+    position: sticky;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    color: white;
+    font-style: italic;
+    margin: -5px 2px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.plus {
+    color: yellow;
+    font-size: 5;
+}
+
+.search {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin: 0px 16px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14;
+    border-radius: 2px 2px;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+    7px 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search input {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    font-size: 14;
+    margin: 0px 10px;
+
+}
+
+.icon {
+    background-color: white;
+    color: #2370f4;
+    border: none;
+    outline: none;
+    margin: 0px 12px;
+}
+
+.login {
+    background-color: white;
+    color: #2370f4;
+    border: none;
+    outline: none;
+    width: 114px;
+    height: 32px;
+    border-radius: 2px 2px;
+    cursor: pointer;
+
+}
+
+.login input {
+    background-color: white;
+    color: #2370f4;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navLink :link{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navLink :visited{
+    color: white;
+    text-decoration: none;
+}
+
+.navLink :hover{
+    color: white;
+    text-decoration: none;
+}
+
+.bac{
+    margin: 24px;
+}
+
+.more{
+    margin: 24px;
+}
+
+.cart{
+    margin: 24px;
+}
+
+.cartIcon{
+    margin: 6px;
+}
+
+.nav2{
+
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;   
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+    7px 7px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.nav2 :link{
+    color: black;
+    text-decoration: none;
+}
+
+.nav2 :visited{
+    color: black;
+    text-decoration: none;
+}
+
+.nav2 :hover{
+    color: #2874f0;
+    text-decoration: none;
+}
+
+.ig{
+position: relative;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px;
+}
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+    7px 7px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.pr01{
+    text-decoration: none;
+    text-align: center;
+    margin: 19px;
+}
+
+.mac img{
+    margin: 20px;
+}
+
+.printer img{
+    margin: 20px;
+}
+
+.camera img{
+    margin: 20px;
+}
+
+.mac :link{
+    text-decoration: none;
+}
+
+.mactxt1{
+    color: black;
+}
+
+.mactxt2{
+padding-top: 7px;
+color: green
+;
+}
+
+.mactxt3{
+    color: black;
+    padding-top: 7px;
+    opacity: .7;
+}
+
+.hptxt1{
+    color: black;
+}
+
+.hptxt2{
+padding-top: 7px;
+color: green
+;
+}
+
+.hptxt3{
+    color: black;
+    padding-top: 7px;
+    opacity: .7;
+}
+
+.cameratxt1{
+    color: black;
+}
+
+.cameratxt2{
+padding-top: 7px;
+color: green
+;
+}
+
+.cameratxt3{
+    color: black;
+    padding-top: 7px;
+    opacity: .7;
+}
+
+.printer :link{
+    text-decoration: none;
+}
+
+.camera :link{
+    text-decoration: none;
+}
+
+.Boe{
+    font-size: 10px;
+}
+
+
+
+.adv2{
+    text-align: center;
+}
+
+.adv2 :link{
+    text-decoration: none;
+}
+
+.adv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Boe2{
+    word-wrap: break-word;
+    font: 30px;
+    line-height: 1.38;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.viewAll{
+    width: 34%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 67px;
+    left: 87px;
+    background-color: #2370f4;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+.advimg{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    position: relative;
+    bottom: -69px;
+}
+
+.foot{
+    background-color: #172337;
+    color: white;
+    text-decoration: none;
+}
+
+.section{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.aboutus{
+    margin: 25px;
+    padding: 20px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Payment{
+    margin: 25px;
+    padding: 20px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.policy{
+    margin: 25px;
+    padding: 20px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.social{
+    margin: 25px;
+    padding: 20px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mail{
+    margin: 25px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.office{
+    margin: 25px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.vl{
+    border-left: 1px solid grey;
+    height: 142px;
+    display: flex;
+    opacity: .4;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 31px;
+    left: 30px;
+}
+
+.abul{
+    list-style: none;
+}
+
+.payul{
+    list-style: none;
+}
+
+.polul{
+    list-style: none;
+}
+
+.soul{
+    list-style: none;
+}
+
+.endfoot1{
+    display: flex;
+    justify-content: space-around;
+    margin: 22px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footlink :link{
+text-decoration: none;
+color: white;
+}
+
+.footlink :visited{
+    text-decoration: none;
+    color: white;
+}
+
+.footlink :hover{
+    text-decoration: none;
+    color: white;
+}
+
+.abmain{
+    color: #878787;
+    line-height: 3;
+}
+
+.paymain{
+    color: #878787;
+    line-height: 3;
+}
+
+.polmain{
+    color: #878787;
+    line-height: 3;
+}
+
+.somain{
+    color: #878787;
+    line-height: 3;
+}
+
+.mailmain{
+    color: #878787;
+    line-height: 3;
+}
+
+.officemain{
+    color: #878787;
+    line-height: 3;
+}
+
+.str{
+    font-size: 15px;
+    color: #6d6868;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.str1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #878787;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 2;
+    font: 600;
+    margin: 10px;
+        box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+    7px 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sec2 :link{
+    text-decoration: none;
+    color: black;
+}
+
+.sec2 :visited{
+    text-decoration: none;
+    color: black;
+}
+
+.sec2 :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.txtcolor{
+    color: green;
+}
